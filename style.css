@@ -1,0 +1,31 @@
+h3
+{
+background-color:orange ;
+color: white;
+font-size: 23px;
+width: 101%;
+margin: 0px;
+box-shadow:5px 5px 5px rgb(187, 122, 0) ;
+}
+.note
+{
+font-size: 16px;
+color:rgb(2, 2, 2) ;
+}
+.copy_right_footer{
+position: fixed;
+color: rgb(255, 255, 255);
+bottom: 0;
+width: 101%;
+background-color:orange ;
+line-height: 3;
+text-align: center;
+}
+
+canvas{
+border: 5px solid orange;
+border-radius: 19px;
+box-shadow: 5px 5px 5px orangered;
+background:url(Smile.png) ;
+background-size: cover;
+}
