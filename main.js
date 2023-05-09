@@ -1,8 +1,8 @@
 noseX=0;
 noseY=0;
 difference = 0;
-rightWristx = 0;
-leftWristx = 0;
+rightWristX = 0;
+leftWristX = 0;
 function setup(){
 
 video = createCapture(VIDEO);
@@ -24,10 +24,10 @@ console.log(results);
 noseX = results[0].pose.nose.x;
 noseY = results[0].pose.nose.y;
 console.log("noseX = " + noseX + "NoseY =" + noseY);
-leftWristx = results[0].pose.leftWristx;
-rightWristx = results[0].pose.rightWristx;
-difference = floor(leftWristx - rightWristx);
-console.log("leftWristX = " + leftWristx + "RightWristX = " + rightWristx + "difference =" + difference);
+leftWristX = results[0].pose.leftWrist.x;
+rightWristX = results[0].pose.rightWrist.x;
+difference = floor(leftWristX - rightWristX);
+console.log("leftWristX = " + leftWristX + "RightWristX = " + rightWristX + "difference =" + difference);
 }
 }
 function draw() {
